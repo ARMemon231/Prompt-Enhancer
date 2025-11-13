@@ -1,0 +1,187 @@
+/* ============================================
+   TEXT COLOR OVERRIDE - HIGH VISIBILITY
+   ============================================ */
+
+/* Force white text on ALL input elements */
+textarea,
+input,
+select,
+button,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+a,
+li,
+td,
+th,
+article,
+section {
+  color: #ffffff !important;
+}
+
+/* Specific input field colors */
+textarea {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+  background-color: rgba(50, 50, 50, 0.8) !important;
+}
+
+input {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="url"],
+input[type="number"] {
+  color: #ffffff !important;
+}
+
+/* Placeholder colors */
+::placeholder {
+  color: #9ca3af !important;
+}
+
+textarea::placeholder {
+  color: #9ca3af !important;
+}
+
+input::placeholder {
+  color: #9ca3af !important;
+}
+
+/* Focus states */
+textarea:focus,
+input:focus,
+textarea:focus-visible,
+input:focus-visible {
+  color: #ffffff !important;
+  caret-color: #60a5fa !important;
+}
+
+/* Textareas specifically */
+[data-testid="input-prompt"],
+[data-testid="input-answer-text"],
+.prompt-input,
+.message-input {
+  color: #ffffff !important;
+  background: rgba(50, 50, 50, 0.9) !important;
+}
+
+/* Text in cards and containers */
+.card-content,
+.message-content,
+.prompt-text,
+.analysis-text {
+  color: #ffffff !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+/* Paragraphs and text */
+p {
+  color: #ffffff !important;
+}
+
+/* Labels */
+label {
+  color: #ffffff !important;
+}
+
+/* Buttons text */
+button,
+button * {
+  color: inherit !important;
+}
+
+/* Form elements */
+select {
+  color: #ffffff !important;
+  background-color: rgba(50, 50, 50, 0.8) !important;
+}
+
+/* Links */
+a {
+  color: #60a5fa !important;
+}
+
+/* Text within cards and sections */
+[class*="text-foreground"] {
+  color: #ffffff !important;
+}
+
+[class*="text-muted"] {
+  color: #d1d5db !important;
+}
+
+/* Special containers */
+.glass-effect,
+.card,
+[class*="card"],
+[class*="container"] {
+  --foreground: #ffffff !important;
+}
+
+/* Chat messages */
+.message,
+.message-content,
+.chat-message {
+  color: #ffffff !important;
+}
+
+/* Analysis results */
+.analysis-results,
+.clarity-score,
+.summary-text,
+.gap-text,
+.weakness-text {
+  color: #ffffff !important;
+}
+
+/* Follow-up questions */
+.question-text,
+.question-heading,
+.answer-input,
+.answer-option {
+  color: #ffffff !important;
+}
+
+/* Enhanced prompt display */
+.enhanced-prompt-text,
+.original-prompt-text,
+.improvement-text {
+  color: #ffffff !important;
+}
+
+/* General text elements */
+.text {
+  color: #ffffff !important;
+}
+
+/* Override any dark text classes */
+.text-gray-900,
+.text-black,
+.text-slate-900,
+.text-gray-800 {
+  color: #ffffff !important;
+}
+
+/* Ensure light text remains visible */
+.text-white,
+.text-gray-100,
+.text-gray-50 {
+  color: #ffffff !important;
+}
